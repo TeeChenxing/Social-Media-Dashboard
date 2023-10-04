@@ -1,5 +1,18 @@
 # Functional Requirements and Notes
 
+## Setting Up Gulp Workflow
+
+- Install gulp to be able to run .scss files since browsers can only read .css and not .scss. To do this go to the terminal and run these commands:
+  <br>
+  ↳ `npm install gulp-cli`
+  <br>
+  ↳ `npm install gulp -g` (install gulp globally)
+  <br>
+  ↳ `npm -init -y` (setting up package.json file)
+  <br>
+  ↳ `npm install @babel/core @babel/preset-env postcss autoprefixer browser-sync cssnano sass dart-sass gulp gulp-babel gulp-postcss gulp-sass gulp-terser`<br>
+  ↳`npm audit fix` (potential fixes for package vulnerabilities)
+
 ## Light/Dark Mode Toggle
 
 - What HTML Markup --> https://scottaohara.github.io/a11y_styled_form_controls/src/radio-button--switch/
